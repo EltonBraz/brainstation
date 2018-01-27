@@ -6,7 +6,7 @@ for (var line=1;line<=8;line++){
         }else if (((line % 2) != 0 && (column % 2) == 0) || ((line % 2) == 0 && (column % 2) != 0)){
             string="#";
         }
-        entireLine=entireLine+string;
+        entireLine+=string;
     }
     console.log(entireLine);
     entireLine="";
