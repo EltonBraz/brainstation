@@ -1,0 +1,21 @@
+
+.square{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: red;
+    
+}
+
+.firstRow{
+    display: inline-block
+}
+
+.secondRow{
+    float: left;
+
+}
+
+.thirdRow{
+    position: sticky;
+}
